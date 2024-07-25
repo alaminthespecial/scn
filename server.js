@@ -15,7 +15,7 @@ const app = express();
 
 // Enable CORS for all routes
 app.use(cors({
-  origin: 'http://localhost:3000', // Update with your frontend URL
+  origin: 'https://sc-dun.vercel.app/', // Update with your frontend URL
   methods: 'GET,POST,PUT,DELETE',
   credentials: true,
 }));
